@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an improvement to TSX networks, tooling, or documentation.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for a suggestion. For Bastion deploy access, coins for a launch, or a direct question, write to builders@tsx.network or use the form on [tsx.network](https://tsx.network).
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Horizon
+        - Bastion
+        - Testnet
+        - Documentation or network configs
+        - Tooling and developer experience
+        - Explorer or website
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve
+      description: What is missing or difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What would you like the TSX team to consider?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: Links, examples, or other detail that would help.

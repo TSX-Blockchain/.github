@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: TSX website and builder contact
+    url: https://tsx.network
+    about: Network details, the testnet faucet, and a form to reach the TSX team.
+  - name: TSX Discord
+    url: https://discord.gg/sKusT7FA3
+    about: Community chat for builders and users.
+  - name: Security report
+    url: https://tsx.network
+    about: Do not file a public issue for a vulnerability. Write to security@tsx.network first. See SECURITY.md.

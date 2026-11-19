@@ -1,0 +1,71 @@
+name: Bug report
+description: Report a problem with a TSX chain, contract, tool, or repository.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+        **Do not use this form for a security vulnerability.** Write to security@tsx.network, in English or Polish, before you tell anyone else. See [SECURITY.md](https://github.com/TSX-Blockchain/.github/blob/main/SECURITY.md).
+
+        Do not include private keys, seed phrases, or passwords.
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network or surface
+      description: Where did you see the problem?
+      options:
+        - TSX Horizon (chain ID 455)
+        - TSX Bastion (chain ID 454)
+        - TSX Testnet (chain ID 445)
+        - Avalanche C-Chain (TSX sale)
+        - Explorer (scan.tsx.network)
+        - Website (tsx.network)
+        - A repository in this organization
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: A short summary of the problem.
+      placeholder: The wallet rejected the official Horizon chain ID, or a documented contract address reverted, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that show the problem. Try them on TSX Testnet when you can.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Contract or RPC (optional)
+      description: A contract address or the RPC URL you used.
+      placeholder: 0x… or https://horizon.tsx.network/rpc
+  - type: input
+    id: tx
+    attributes:
+      label: Transaction hash (optional)
+      description: A transaction that shows the problem, if you have one.
+      placeholder: 0x…
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment (optional)
+      description: Wallet, tool (Foundry, Hardhat, viem, MetaMask), and anything else that helps.
