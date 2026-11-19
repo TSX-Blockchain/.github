@@ -23,7 +23,7 @@ The coin is TSX on every chain, with 18 decimals. Start on Testnet, move to Hori
 - **Networks repo:** [TSX-Blockchain/networks](https://github.com/TSX-Blockchain/networks)
 - **X:** [@tsx_blockchain](https://x.com/tsx_blockchain)
 - **Medium:** [@tsxblockchain](https://medium.com/@tsxblockchain)
-- **Discord:** [discord.gg/sKusT7FA3](https://discord.gg/sKusT7FA3)
+- **Discord:** [discord.gg/BuErakdcw](https://discord.gg/BuErakdcw)
 
 ## Contact
 
